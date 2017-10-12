@@ -2,14 +2,19 @@ import React, { Component } from 'react';
 import { Label } from 'semantic-ui-react';
 
 class Pokemon extends Component {
+  // getName() {
+  //   return `../assets/sprites/${this.props.pokemonName}.gif`;
+  // }
+
   render() {
+    const name = this.props.pokemonName;
     return (
       <li className="col-lg-3 col-md-4 col-sm-6 col-12">
         <div className="ui card pokemon">
           <div
             className="wrapper"
             style={{
-              backgroundImage: `url(${require('../assets/sprites/abomasnow-mega.gif')})`
+              backgroundImage: `url(${require('../assets/sprites/'+ name +'.gif')})`
             }}
           ></div>
           <div className="content">

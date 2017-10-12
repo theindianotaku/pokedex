@@ -19,10 +19,10 @@ class App extends Component {
         </nav>
         <div className="ui container main">
           <div className="row">
-            <Pokemon />
-            <Pokemon />
-            <Pokemon />
-            <Pokemon />
+            <Pokemon pokemonName="reshiram" />
+            <Pokemon pokemonName="yveltal" />
+            <Pokemon pokemonName="garchomp-mega" />
+            <Pokemon pokemonName="tyranitar-mega" />
           </div>
         </div>
       </div>
