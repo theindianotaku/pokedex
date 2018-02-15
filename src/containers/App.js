@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Search from '../components/Search';
-import Pokemon from '../components/Pokemon';
+import PokemonTable from '../components/PokemonTable';
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
         <nav id="header" className="ui inverted top fixed menu">
           <div className="ui container">
             <a className="header item m-r-md">
-              <img alt="logo" className="ui mini image m-r-md" src={require("../assets/icons/logo.png")} />
+              <img alt="logo" className="ui mini image m-r-md" src={require('../assets/sprites/voltorb.gif')} />
               Poke-Search
             </a>
             <div className="header valign-wrapper">
@@ -18,12 +18,7 @@ class App extends Component {
           </div>
         </nav>
         <div className="ui container main">
-          <div className="row">
-            <Pokemon pokemonName="reshiram" />
-            <Pokemon pokemonName="yveltal" />
-            <Pokemon pokemonName="garchomp-mega" />
-            <Pokemon pokemonName="tyranitar-mega" />
-          </div>
+          <PokemonTable />
         </div>
       </div>
     );

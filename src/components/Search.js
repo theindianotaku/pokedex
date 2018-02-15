@@ -7,7 +7,7 @@ const Search = () => {
       <Input icon='search' placeholder="Search for Pokemon" />
     </div>
   );
-}
+};
 
 
 export default Search;
