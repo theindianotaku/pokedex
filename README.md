@@ -1,3 +1,3 @@
 ### README
-A Pokedex built on React+Redux.
+A Pokédex built on React+Redux.
 /to be edited further/
